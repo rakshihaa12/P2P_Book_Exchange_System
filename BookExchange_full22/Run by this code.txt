@@ -1,0 +1,4 @@
+javac -cp .;mysql-connector-j-9.4.0.jar main/*.java dao/*.java models/*.java services/*.java
+
+
+java -cp .;mysql-connector-j-9.4.0.jar main.MainGUI
